@@ -12,3 +12,4 @@ archive/
 env/source_data/
 .venv/
 venv/
+.vscode
