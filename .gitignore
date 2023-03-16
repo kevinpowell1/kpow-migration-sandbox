@@ -1,0 +1,14 @@
+data/
+results/
+reports/
+source_data/
+!example_data/
+!example_data/iterations/test_run/results/
+!example_data/iterations/test_run/reports/
+!example_data/iterations/test_run/source_data/
+archive/
+/iterations/*/*
+*.data
+env/source_data/
+.venv/
+venv/
