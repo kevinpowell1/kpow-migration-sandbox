@@ -13,3 +13,4 @@ env/source_data/
 .venv/
 venv/
 .vscode
+test_data
