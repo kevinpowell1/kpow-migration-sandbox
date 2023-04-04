@@ -1,0 +1,72 @@
+{
+  "libraryInformation": {
+    "tenantId": "ls002",
+    "multiFieldDelimiter": "<^>",
+    "okapiUrl": "https://okapi-ls002.folio.ebsco.com",
+    "okapiUsername": "admin",
+    "logLevelDebug": false,
+    "libraryName": "Team ABC Library",
+    "folioRelease": "morning-glory",
+    "addTimeStampToFileNames": false,
+    "iterationIdentifier": "test_iteration"
+  },
+  "migrationTasks": [
+    {
+      "name": "transform_bibs",
+      "addAdministrativeNotesWithLegacyIds": true,
+      "migrationTaskType": "BibsTransformer",
+      "ilsFlavour": "tag001",
+      "tags_to_delete": [],
+      "files": [
+        {
+          "file_name": "FILE_NAME_OF_MRC_FILE_NO_PATH",
+          "suppressed": false
+        }
+      ],
+      "neverUpdateHridSettings": true
+    },
+    {
+      "name": "post_instances",
+      "migrationTaskType": "BatchPoster",
+      "objectType": "Instances",
+      "batchSize": 250,
+      "files": [
+        {
+          "file_name": "folio_instances_transform_bibs.json"
+        }
+      ]
+    },
+    {
+      "name": "post_srs_bibs",
+      "migrationTaskType": "BatchPoster",
+      "objectType": "SRS",
+      "batchSize": 250,
+      "files": [
+        {
+          "file_name": "folio_srs_instances_transform_bibs.json"
+        }
+      ]
+    },
+    {
+      "name": "post_users",
+      "migrationTaskType": "BatchPoster",
+      "objectType": "Users",
+      "batchSize": 1,
+      "files": [
+        {
+          "file_name": "folio_users_user_transform.json"
+        }
+      ]
+    },
+    {
+      "name": "user_transform",
+      "migrationTaskType": "UserTransformer",
+      "groupMapPath": "user_groups.tsv",
+      "userMappingFileName": "user_mapping.json",
+      "useGroupMap": true,
+      "userFile": {
+        "file_name": "staff_normalized.tsv"
+      }
+    }
+  ]
+}

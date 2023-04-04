@@ -1,0 +1,256 @@
+{
+  "data": [
+    {
+      "folio_field": "active",
+      "legacy_field": "Not mapped",
+      "value": "",
+      "description": "",
+      "fallback_legacy_field": ""
+    },
+    {
+      "folio_field": "barcode",
+      "legacy_field": "BARCODE",
+      "value": "",
+      "description": "",
+      "fallback_legacy_field": ""
+    },
+    {
+      "folio_field": "departments[0]",
+      "legacy_field": "Not mapped",
+      "value": "",
+      "description": "",
+      "fallback_legacy_field": ""
+    },
+    {
+      "folio_field": "enrollmentDate",
+      "legacy_field": "Not mapped",
+      "value": "",
+      "description": "",
+      "fallback_legacy_field": ""
+    },
+    {
+      "folio_field": "expirationDate",
+      "legacy_field": "Not mapped",
+      "value": "",
+      "description": "",
+      "fallback_legacy_field": ""
+    },
+    {
+      "folio_field": "externalSystemId",
+      "legacy_field": "PATRONID",
+      "value": "",
+      "description": "",
+      "fallback_legacy_field": ""
+    },
+    {
+      "folio_field": "id",
+      "legacy_field": "PATRONID",
+      "value": "",
+      "description": "",
+      "fallback_legacy_field": ""
+    },
+    {
+      "folio_field": "legacyIdentifier",
+      "legacy_field": "PATRONID",
+      "value": "",
+      "description": "",
+      "fallback_legacy_field": ""
+    },
+    {
+      "folio_field": "patronGroup",
+      "legacy_field": "Not mapped",
+      "value": "",
+      "description": "",
+      "fallback_legacy_field": ""
+    },
+    {
+      "folio_field": "personal.addresses[0].addressLine1",
+      "legacy_field": "HOMEADDRESS1",
+      "value": "",
+      "description": "",
+      "fallback_legacy_field": ""
+    },
+    {
+      "folio_field": "personal.addresses[0].addressLine2",
+      "legacy_field": "HOMEADDRESS2",
+      "value": "",
+      "description": "",
+      "fallback_legacy_field": ""
+    },
+    {
+      "folio_field": "personal.addresses[0].addressTypeId",
+      "legacy_field": "Not mapped",
+      "value": "",
+      "description": "",
+      "fallback_legacy_field": ""
+    },
+    {
+      "folio_field": "personal.addresses[0].city",
+      "legacy_field": "HOMECITY",
+      "value": "",
+      "description": "",
+      "fallback_legacy_field": ""
+    },
+    {
+      "folio_field": "personal.addresses[0].countryId",
+      "legacy_field": "Not mapped",
+      "value": "",
+      "description": "",
+      "fallback_legacy_field": ""
+    },
+    {
+      "folio_field": "personal.addresses[0].id",
+      "legacy_field": "Not mapped",
+      "value": "",
+      "description": "",
+      "fallback_legacy_field": ""
+    },
+    {
+      "folio_field": "personal.addresses[0].postalCode",
+      "legacy_field": "HOMEZIP",
+      "value": "",
+      "description": "",
+      "fallback_legacy_field": ""
+    },
+    {
+      "folio_field": "personal.addresses[0].primaryAddress",
+      "legacy_field": "",
+      "value": true,
+      "description": "",
+      "fallback_legacy_field": ""
+    },
+    {
+      "folio_field": "personal.addresses[0].region",
+      "legacy_field": "HOMEADDRESS3",
+      "value": "",
+      "description": "",
+      "fallback_legacy_field": ""
+    },
+    {
+      "folio_field": "personal.dateOfBirth",
+      "legacy_field": "Not mapped",
+      "value": "",
+      "description": "",
+      "fallback_legacy_field": ""
+    },
+    {
+      "folio_field": "personal.email",
+      "legacy_field": "EMAIL",
+      "value": "",
+      "description": "",
+      "fallback_legacy_field": ""
+    },
+    {
+      "folio_field": "personal.firstName",
+      "legacy_field": "FIRSTNAME",
+      "value": "",
+      "description": "",
+      "fallback_legacy_field": ""
+    },
+    {
+      "folio_field": "personal.lastName",
+      "legacy_field": "LASTNAME",
+      "value": "",
+      "description": "",
+      "fallback_legacy_field": ""
+    },
+    {
+      "folio_field": "personal.middleName",
+      "legacy_field": "MIDDLE",
+      "value": "",
+      "description": "",
+      "fallback_legacy_field": ""
+    },
+    {
+      "folio_field": "personal.mobilePhone",
+      "legacy_field": "MOBILEPHONE",
+      "value": "",
+      "description": "",
+      "fallback_legacy_field": ""
+    },
+    {
+      "folio_field": "personal.phone",
+      "legacy_field": "MOBILEPHONE",
+      "value": "",
+      "description": "",
+      "fallback_legacy_field": ""
+    },
+    {
+      "folio_field": "personal.preferredContactTypeId",
+      "legacy_field": "Not mapped",
+      "value": "",
+      "description": "",
+      "fallback_legacy_field": ""
+    },
+    {
+      "folio_field": "personal.preferredFirstName",
+      "legacy_field": "Not mapped",
+      "value": "",
+      "description": "",
+      "fallback_legacy_field": ""
+    },
+    {
+      "folio_field": "requestPreference.defaultDeliveryAddressTypeId",
+      "legacy_field": "Not mapped",
+      "value": "",
+      "description": "",
+      "fallback_legacy_field": ""
+    },
+    {
+      "folio_field": "requestPreference.defaultServicePointId",
+      "legacy_field": "Not mapped",
+      "value": "",
+      "description": "",
+      "fallback_legacy_field": ""
+    },
+    {
+      "folio_field": "requestPreference.delivery",
+      "legacy_field": "Not mapped",
+      "value": "",
+      "description": "",
+      "fallback_legacy_field": ""
+    },
+    {
+      "folio_field": "requestPreference.fulfillment",
+      "legacy_field": "Not mapped",
+      "value": "",
+      "description": "",
+      "fallback_legacy_field": ""
+    },
+    {
+      "folio_field": "requestPreference.holdShelf",
+      "legacy_field": "Not mapped",
+      "value": "",
+      "description": "",
+      "fallback_legacy_field": ""
+    },
+    {
+      "folio_field": "requestPreference.id",
+      "legacy_field": "Not mapped",
+      "value": "",
+      "description": "",
+      "fallback_legacy_field": ""
+    },
+    {
+      "folio_field": "requestPreference.userId",
+      "legacy_field": "Not mapped",
+      "value": "",
+      "description": "",
+      "fallback_legacy_field": ""
+    },
+    {
+      "folio_field": "tags.tagList[0]",
+      "legacy_field": "Not mapped",
+      "value": "",
+      "description": "",
+      "fallback_legacy_field": ""
+    },
+    {
+      "folio_field": "username",
+      "legacy_field": "EMAIL",
+      "value": "",
+      "description": "",
+      "fallback_legacy_field": ""
+    }
+  ]
+}
